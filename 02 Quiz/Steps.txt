@@ -1,0 +1,7 @@
+1- Create Question Class
+2- Generating the questions ( LoadQuestions function )
+3- Building The UI
+4- Connect The UI with Actual Data
+5- Event Handlers (What to do when we click on Buttons)
+6- Handling th e Confirm Button Behavoir
+7- Fix Bugs

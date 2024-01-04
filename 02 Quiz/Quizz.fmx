@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 360
+  ClientWidth = 531
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object QuestionLabel: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'QuestionLabel'
+    TabOrder = 0
+    object Answer1RadioButton: TRadioButton
+      Position.Y = 48.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Answer1RadioButton'
+      OnChange = Answer1RadioButtonChange
+      object Answer2RadioButton: TRadioButton
+        Position.Y = 40.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 20
+        Text = 'Answer2RadioButton'
+        OnChange = Answer2RadioButtonChange
+        object Answer3RadioButton: TRadioButton
+          Position.Y = 40.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 20
+          Text = 'Answer3RadioButton'
+          OnChange = Answer3RadioButtonChange
+        end
+      end
+    end
+  end
+  object Label2: TLabel
+    Position.X = 408.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Points'
+    TabOrder = 1
+  end
+  object ConfirmButton: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'ConfirmButton'
+    OnClick = ConfirmButtonClick
+  end
+  object Layer3D1: TLayer3D
+    Height = 4.000000000000000000
+    Resolution = 50
+    StyleLookup = 'backgroundstyle'
+    Width = 8.000000000000000000
+  end
+  object Layer3D2: TLayer3D
+    Height = 4.000000000000000000
+    Resolution = 50
+    StyleLookup = 'backgroundstyle'
+    Width = 8.000000000000000000
+  end
+  object Splitter3D1: TSplitter3D
+    Align = Left
+    Cursor = crHSplit
+    Height = 360.000000000000000000
+    Position.X = 2.000000000000000000
+    Position.Y = 180.000000000000000000
+    Projection = Screen
+    Width = 5.000000000000000000
+  end
+  object PointsLabel: TLabel
+    Position.X = 457.000000000000000000
+    Position.Y = 32.000000000000000000
+    Text = 'PointsLabel'
+    TabOrder = 6
+  end
+end
