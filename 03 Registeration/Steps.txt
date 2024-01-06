@@ -1,0 +1,15 @@
+1- Add New GUI Forms (Main, Login, Registeration)
+2- Setup UI For All
+3- Set Event Handlers (like when click on login or registeration in main form then pop new interface)
+4- Setup Save button in registeration form (saving user data in files)
+5- Setup Login Button in Login Form ( What will happen if a person enter username and password )
+	For That we Make parseCommaDelimitedString() function which will seperate data from ','
+6- DRY (Dont Repeat Yourself) 
+		AnsiString editUsername = usernameEdit->Text;
+		const char* usernameString = editUsername.c_str();
+				to
+		const char* convertToCharPtr(AnsiString ansiString)
+		{
+			return ansiString.c_str();
+		}
+7- Fixing Bugs
