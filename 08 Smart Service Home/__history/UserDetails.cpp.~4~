@@ -1,0 +1,51 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include <fstream>
+#include "UserDetails.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TuserDetailsForm *userDetailsForm;
+//---------------------------------------------------------------------------
+__fastcall TuserDetailsForm::TuserDetailsForm(TComponent* Owner)
+	: TForm(Owner)
+{
+	fstream myFile;
+
+	myFile.open("userData.txt", std::ios::in);
+
+	AnsiString fn, ln, pn, cnic, car, loc, locks, lights, speakers, curtains, heaters, cameras;
+
+	myFile >> fn;
+	myFile >> ln;
+	myFile >> pn;
+	myFile >> cnic;
+	myFile >> car;
+	myFile >> loc;
+	myFile >> locks;
+	myFile >> lights;
+	myFile >> speakers;
+	myFile >> curtains;
+	myFile >> heaters;
+	myFile >> cameras;
+
+	myFile.close();
+
+	nameLabel->Caption = fn;
+//	pnLabel->Caption = pn;
+//	cnicLabel->Caption = cnic;
+//	carLabel->Caption = car;
+//	locLabel->Caption = loc;
+//	lockLabel->Caption = locks;
+//	lightLabel->Caption = lights;
+//	speakerLabel->Caption = speakers;
+//	curtainLabel->Caption = curtains;
+//	heaterLabel->Caption = heaters;
+//	cameraLabel->Caption = cameras;
+
+
+}
+//---------------------------------------------------------------------------

@@ -1,0 +1,35 @@
+//---------------------------------------------------------------------------
+
+#ifndef RoomFormH
+#define RoomFormH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Imaging.jpeg.hpp>
+#include <Vcl.Imaging.pngimage.hpp>
+//---------------------------------------------------------------------------
+class TroomsForm : public TForm
+{
+__published:	// IDE-managed Components
+	TImage *roomImage;
+	TImage *Image5;
+	TImage *Image;
+	TImage *Image7;
+	TImage *Image11;
+	TImage *Image12;
+	TImage *Image3;
+	TImage *Image4;
+	TImage *Image6;
+	TImage *Image13;
+	TImage *Image1;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TroomsForm(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TroomsForm *roomsForm;
+//---------------------------------------------------------------------------
+#endif

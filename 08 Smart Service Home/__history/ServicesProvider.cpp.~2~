@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "ServicesProvider.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TserviceProviderForm *serviceProviderForm;
+//---------------------------------------------------------------------------
+__fastcall TserviceProviderForm::TserviceProviderForm(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TserviceProviderForm::Button1Click(TObject *Sender)
+{
+    this->Close();
+}
+//---------------------------------------------------------------------------
+

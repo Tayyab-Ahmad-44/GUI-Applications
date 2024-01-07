@@ -1,0 +1,26 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "InputCnic.h"
+#include "myHeader"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm5 *Form5;
+//---------------------------------------------------------------------------
+__fastcall TForm5::TForm5(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+Home* home;
+
+void __fastcall TForm5::ReceiveObject(Home *h)
+{
+	home = h;
+	// Do something with the object
+	ShowMessage("Received object with data: " + IntToStr(obj->data));
+}

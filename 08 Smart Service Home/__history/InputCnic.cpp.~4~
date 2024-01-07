@@ -1,0 +1,38 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "InputCnic.h"
+#include <fstream>
+#include "myHeader.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TinputCnicForm *inputCnicForm;
+//---------------------------------------------------------------------------
+__fastcall TinputCnicForm::TinputCnicForm(TComponent* Owner)
+	: TForm(Owner)
+{
+    cnic = INT16_MAX;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TinputCnicForm::doneButtonClick(TObject *Sender)
+{
+	AnsiString cnicc = cnicEdit->Text;
+
+	cnic = StrToLL(cnicc);
+
+//	fstream myFile;
+//
+//	myFile.open("userData.txt", std::ios::out | std::ios::trunc);
+//
+//	myFile << cnicc << std::endl;
+//
+//	myFile.close();
+//
+//	this->Close();
+}
+//---------------------------------------------------------------------------
+

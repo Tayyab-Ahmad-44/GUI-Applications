@@ -1,0 +1,15 @@
+object garageForm: TgarageForm
+  Left = 0
+  Top = 0
+  Caption = 'Garage'
+  ClientHeight = 291
+  ClientWidth = 295
+  Color = clBtnFace
+  Enabled = False
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+end

@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "RoomForm.h"
+#include "Unit1.h"
+#include "AllUsersRoomsForm.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TroomsForm *roomsForm;
+//---------------------------------------------------------------------------
+__fastcall TroomsForm::TroomsForm(TComponent* Owner)
+	: TForm(Owner)
+{
+//	long long cnic = allRoomsForm->getCnic();
+//	Home *home = mainForm->getHomeObj();
+
+
+}
+//---------------------------------------------------------------------------
