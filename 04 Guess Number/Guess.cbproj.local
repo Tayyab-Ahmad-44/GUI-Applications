@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/06/21 00:02:28.748,=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2023/06/21 00:02:29.394,=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/06/21 00:48:33.633,D:\GUI\04 Guess Number\Unit1.fmx=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/06/21 00:48:33.633,D:\GUI\04 Guess Number\Unit1.cpp=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2023/06/21 00:48:33.633,D:\GUI\04 Guess Number\Unit1.h=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2023/06/21 00:48:33.715,D:\GUI\04 Guess Number\GuessPCH1.h=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/06/21 00:48:33.810,D:\GUI\04 Guess Number\Guess.cbproj=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2023/06/21 00:48:44.992,D:\GUI\04 Guess Number\GuessNum.fmx=D:\GUI\04 Guess Number\Unit1.fmx</Transaction>
+    <Transaction>2023/06/21 00:48:44.992,D:\GUI\04 Guess Number\GuessNum.cpp=D:\GUI\04 Guess Number\Unit1.cpp</Transaction>
+    <Transaction>2023/06/21 00:48:44.992,D:\GUI\04 Guess Number\GuessNum.h=D:\GUI\04 Guess Number\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>
