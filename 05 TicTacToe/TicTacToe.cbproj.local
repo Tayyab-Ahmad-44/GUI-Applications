@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/21 01:13:57.000.441,=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2023/06/21 01:13:57.000.585,=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/06/21 01:14:48.000.966,D:\GUI\05 TicTacToe\Unit1.fmx=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/06/21 01:14:48.000.966,D:\GUI\05 TicTacToe\Unit1.h=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2023/06/21 01:14:48.000.966,D:\GUI\05 TicTacToe\Unit1.cpp=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2023/06/21 01:14:49.000.051,D:\GUI\05 TicTacToe\TicTacToePCH1.h=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2023/06/21 01:14:49.000.151,D:\GUI\05 TicTacToe\TicTacToe.cbproj=C:\Users\tayya\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2023/06/21 01:15:01.000.687,D:\GUI\05 TicTacToe\TicTacToee.cpp=D:\GUI\05 TicTacToe\Unit1.cpp</Transaction>
+    <Transaction>2023/06/21 01:15:01.000.687,D:\GUI\05 TicTacToe\TicTacToee.h=D:\GUI\05 TicTacToe\Unit1.h</Transaction>
+    <Transaction>2023/06/21 01:15:01.000.687,D:\GUI\05 TicTacToe\TicTacToee.fmx=D:\GUI\05 TicTacToe\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>
