@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3938C0D2-AE89-4691-85B2-2399B0178178}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ShopCustomerManagement.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\02 Quiz\Quiz.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ShopCustomerManagement">
+        <MSBuild Projects="ShopCustomerManagement.cbproj"/>
+    </Target>
+    <Target Name="ShopCustomerManagement:Clean">
+        <MSBuild Projects="ShopCustomerManagement.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShopCustomerManagement:Make">
+        <MSBuild Projects="ShopCustomerManagement.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Quiz">
+        <MSBuild Projects="..\02 Quiz\Quiz.cbproj"/>
+    </Target>
+    <Target Name="Quiz:Clean">
+        <MSBuild Projects="..\02 Quiz\Quiz.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Quiz:Make">
+        <MSBuild Projects="..\02 Quiz\Quiz.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ShopCustomerManagement;Quiz"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ShopCustomerManagement:Clean;Quiz:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ShopCustomerManagement:Make;Quiz:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

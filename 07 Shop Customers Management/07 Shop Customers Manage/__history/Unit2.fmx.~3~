@@ -1,0 +1,40 @@
+object AskingForProductsForm: TAskingForProductsForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 128
+  ClientWidth = 333
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object askingProductsLabel: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Enter the number of products customer have:'
+    TabOrder = 0
+  end
+  object productEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 32.000000000000000000
+    Position.Y = 57.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object addInFile: TButton
+    AutoTranslate = False
+    Position.X = 217.000000000000000000
+    Position.Y = 57.000000000000000000
+    Size.Width = 96.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Confirm'
+    OnClick = addInFileClick
+  end
+end

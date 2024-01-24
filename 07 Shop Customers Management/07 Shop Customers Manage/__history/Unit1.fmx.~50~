@@ -1,0 +1,265 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Shop Customers Management Application'
+  ClientHeight = 424
+  ClientWidth = 663
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object headLabel: TLabel
+    AutoTranslate = False
+    StyledSettings = [Family]
+    Position.X = 184.000000000000000000
+    Size.Width = 286.000000000000000000
+    Size.Height = 43.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claMidnightblue
+    TextSettings.HorzAlign = Center
+    Text = 'TYB Manga Selling Shop'
+    TabOrder = 0
+  end
+  object AddCustomerButton: TButton
+    Position.X = 453.000000000000000000
+    Position.Y = 300.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Add New Customer  '
+    OnClick = AddCustomerButtonClick
+  end
+  object addCustomerLabel: TLabel
+    Position.X = 53.000000000000000000
+    Position.Y = 317.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+  end
+  object checkOutButton: TButton
+    AutoTranslate = False
+    Enabled = False
+    Position.X = 453.000000000000000000
+    Position.Y = 357.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Check Out Customer'
+    OnClick = checkOutButtonClick
+  end
+  object Line1StringGrid: TStringGrid
+    CanFocus = True
+    ClipChildren = True
+    Position.X = 53.000000000000000000
+    Position.Y = 83.000000000000000000
+    Size.Width = 168.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Options = [ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+    Viewport.Width = 148.000000000000000000
+    Viewport.Height = 184.000000000000000000
+    object StringColumn4: TStringColumn
+      ReadOnly = True
+      Size.Width = 33.000000000000000000
+    end
+    object StringColumn5: TStringColumn
+      ReadOnly = True
+      Size.Width = 111.000000000000000000
+    end
+  end
+  object Line2StringGrid: TStringGrid
+    CanFocus = True
+    ClipChildren = True
+    Position.X = 241.000000000000000000
+    Position.Y = 83.000000000000000000
+    Size.Width = 168.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Options = [ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+    Viewport.Width = 148.000000000000000000
+    Viewport.Height = 184.000000000000000000
+    object StringColumn1: TStringColumn
+      ReadOnly = True
+      Size.Width = 33.000000000000000000
+    end
+    object StringColumn2: TStringColumn
+      ReadOnly = True
+      Size.Width = 111.000000000000000000
+    end
+  end
+  object Line3StringGrid: TStringGrid
+    CanFocus = True
+    ClipChildren = True
+    Position.X = 435.000000000000000000
+    Position.Y = 83.000000000000000000
+    Size.Width = 168.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Options = [ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+    Viewport.Width = 148.000000000000000000
+    Viewport.Height = 184.000000000000000000
+    object StringColumn3: TStringColumn
+      ReadOnly = True
+      Size.Width = 33.000000000000000000
+    end
+    object StringColumn6: TStringColumn
+      ReadOnly = True
+      Size.Width = 111.000000000000000000
+    end
+  end
+  object Label2: TLabel
+    AutoTranslate = False
+    Position.X = 96.000000000000000000
+    Position.Y = 91.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'No of Products'
+    TabOrder = 8
+    object Label10: TLabel
+      AutoTranslate = False
+      Position.X = 188.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'No of Products'
+      TabOrder = 4
+    end
+    object Label3: TLabel
+      AutoTranslate = False
+      Size.Width = 105.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'No of Products'
+      TabOrder = 9
+      object Label13: TLabel
+        AutoTranslate = False
+        Position.X = 188.000000000000000000
+        Size.Width = 105.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'No of Products'
+        TabOrder = 4
+      end
+    end
+  end
+  object Label4: TLabel
+    AutoTranslate = False
+    Position.X = 63.000000000000000000
+    Position.Y = 91.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'ID'
+    TabOrder = 9
+    object Label5: TLabel
+      AutoTranslate = False
+      Position.X = 188.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'ID'
+      TabOrder = 4
+      object Label6: TLabel
+        AutoTranslate = False
+        Position.X = 200.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'ID'
+        TabOrder = 4
+        object Label9: TLabel
+          AutoTranslate = False
+          Size.Width = 41.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'ID'
+          TabOrder = 4
+        end
+      end
+    end
+    object Label7: TLabel
+      AutoTranslate = False
+      Size.Width = 41.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'ID'
+      TabOrder = 5
+      object Label8: TLabel
+        AutoTranslate = False
+        Position.X = 188.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'ID'
+        TabOrder = 4
+        object Label11: TLabel
+          AutoTranslate = False
+          Position.X = 200.000000000000000000
+          Size.Width = 41.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'ID'
+          TabOrder = 4
+        end
+      end
+    end
+  end
+  object Label1: TLabel
+    AutoTranslate = False
+    Position.X = 486.000000000000000000
+    Position.Y = 91.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'No of Products'
+    TabOrder = 4
+    object Label14: TLabel
+      AutoTranslate = False
+      Size.Width = 105.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'No of Products'
+      TabOrder = 4
+    end
+  end
+  object Label12: TLabel
+    StyledSettings = [Family]
+    Position.X = 81.000000000000000000
+    Position.Y = 66.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claRoyalblue
+    TextSettings.HorzAlign = Center
+    Text = 'Line 1'
+    TabOrder = 10
+    object Label15: TLabel
+      StyledSettings = [Family]
+      Position.X = 184.000000000000000000
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claRoyalblue
+      TextSettings.HorzAlign = Center
+      Text = 'Line 2'
+      TabOrder = 4
+      object Label16: TLabel
+        StyledSettings = [Family]
+        Position.X = 208.000000000000000000
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claRoyalblue
+        TextSettings.HorzAlign = Center
+        Text = 'Line 3'
+        TabOrder = 4
+      end
+    end
+  end
+end
